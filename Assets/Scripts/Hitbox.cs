@@ -16,7 +16,7 @@ public class Hitbox : MonoBehaviour {
 	{
 		if (PlayerMovement.isKicking) 
 		{
-			!legCollider.enabled = legCollider.enabled;
+			legCollider.enabled = !legCollider.enabled;
 		}
 	}
 }
